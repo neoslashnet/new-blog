@@ -1,15 +1,15 @@
 {
   "title": "neoslash.net",
   "author": "David Galiata",
-  "headerTitle": "neoslash",
+  "headerTitle": "David Galiata | neoslash",
   "description": "Thoughts, insights, and lessons from the IT Consulting world.",
   "language": "en-us",
   "siteUrl": "https://tailwind-nextjs-starter-blog.vercel.app",
   "siteRepo": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
   "image": "/static/images/0.png",
   "socialBanner": "/static/images/twitter-card.png",
-  "email": "address@yoursite.com",
-  "twitter": "https://twitter.com/Twitter",
-  "linkedin": "https://www.linkedin.com",
+  "email": "david@neoslash.net",
+  "twitter": "https://twitter.com/neoslashnet",
+  "linkedin": "https://www.linkedin.com/in/dgaliata",
   "locale": "en-US"
 }
