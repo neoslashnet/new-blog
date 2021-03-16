@@ -23,7 +23,7 @@ export default function Projects() {
           </p>
         </div>
         <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-          What I am currently working on
+          <b>What I am currently working on </b>
           <ul>
   <li>Coffee</li>
   <li>Tea</li>
