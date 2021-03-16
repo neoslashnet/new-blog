@@ -32,7 +32,7 @@ export default function About() {
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
               Hello there!
-              My name name is David Galiata.I began working in IT 2006 and have held various roles. I started off my career with break/fix hardware repairs. I've also worked in a NOC, corporate IT, and ultimately landed in the consulting industry.
+              My name name is David Galiata. I began working in IT 2006 and have held various roles. I started off my career with break/fix hardware repairs. I've also worked in a NOC, corporate IT, and ultimately landed in the consulting industry.
             </p>
             <p>
             My technical background is in server infrastructure (Windows & Linux), network infrastructure, firewalls/security, storage, virtualization, and recently cloud services. I apply all these skills sets in my current role as a Senior IT Systems Engineer for a consulting firm in the San Francisco Bay Area
