@@ -38,14 +38,16 @@ export default function Projects() {
         <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
           <b>2020 Completed Projects </b>
           <ul>
-  <li>Citrix Cloud (Managed) VDI in AWS Cloud</li>
-  <li>AWS Organizations rollout</li>
-  <li>SharePoint Online migration off a Windows File Server</li>
-  <li>AWS Transit Gateway deployments</li>
-  <li>Fortinet firewall- Transition off older Cisco ASA. Includes deployment of over 200 IPSEC L2L VPN's</li>
-  <li>AWS Route 53 VPC endpoint and resolver configuration</li>
-  <li>Developing AWS Partnership for my company</li>
-  <li>Hybrid Exchange configuration</li>
+  <li>Office 365 email migration(Off Exchange 2010)</li>
+  <li>Implemented AWS File gateway to S3 storage</li>
+  <li>Azure Sentinel configuration and deployment</li>
+  <li>AWS S3 Replication Projects </li>
+  <li>Cisco core and access layer switch upgrade + Inter VLAN Routing</li>
+  <li>VMWare implementations (Upgrade from XenServer)</li>
+  <li>Citrix VDA upgrades</li>
+  <li>Multiple Fortinet deployments</li>
+  <li>Multiple Office 365 cutovers and migrations</li>
+  <li>Implemented MFA across severall applications to entire client staff</li>
   </ul> 
         </p>
         <div className="container py-12">
