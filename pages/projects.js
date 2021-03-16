@@ -25,9 +25,14 @@ export default function Projects() {
         <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
           <b>What I am currently working on </b>
           <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>Citrix Cloud (Managed) VDI in AWS Cloud</li>
+  <li>AWS Organizations rollout</li>
+  <li>SharePoint Online migration off a Windows File Server</li>
+  <li>AWS Transit Gateway deployments</li>
+  <li>Fortinet firewall- Transition off older Cisco ASA. Includes deployment of over 200 IPSEC L2L VPN's</li>
+  <li>AWS Route 53 VPC endpoint and resolver configuration</li>
+  <li>Developing AWS Partnership for my company</li>
+  <li>Hybrid Exchange configuration</li>
   </ul> 
         </p>
         <div className="container py-12">
