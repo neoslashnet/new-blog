@@ -22,6 +22,14 @@ export default function Projects() {
             Showcase your projects with a hero image (16 x 9)
           </p>
         </div>
+        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          What I am currently working on
+          <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+  </ul> 
+        </p>
         <div className="container py-12">
           <div className="flex flex-wrap -m-4">
             {projectsData.map((d) => (
