@@ -32,18 +32,18 @@ export default function About() {
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
               Hello there!
-              My name name is David Galiata.
+              My name name is David Galiata.I began working in IT 2006 and have held various roles. I started off my career with break/fix hardware repairs. I've also worked in a NOC, corporate IT, and ultimately landed in the consulting industry.
             </p>
             <p>
-              He leads the clean energy group which develops 3D air pollution-climate models, writes
-              differential equation solvers, and manufactures titanium plated air ballons. In his
-              free time he bakes raspberry pi.
+            My technical background is in server infrastructure (Windows & Linux), network infrastructure, firewalls/security, storage, virtualization, and recently cloud services. I apply all these skills sets in my current role as a Senior IT Systems Engineer for a consulting firm in the San Francisco Bay Area
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique
-              placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem
-              nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+            I started this blog to document certain aspects of projects and random issues I deal with not only for myself but to help others. If you see something technical in my blog, it’s because I’m actively working with that technology. Lately I’ve been blogging about other aspects of the IT industry.
             </p>
+            <p>In addition to my technical interests, I enjoy spending time with my family, coaching soccer, playing chess, and reading.
+            </p>
+            <p>If you want to contact me or know more about what I’m working on you can follow me on Twitter.</p>
+            <p>Thank You for reading!</p>
           </div>
         </div>
       </div>
