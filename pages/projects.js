@@ -35,6 +35,7 @@ export default function Projects() {
   <li>Hybrid Exchange configuration</li>
   </ul> 
         </p>
+       
         <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
           <b>2020 Completed Projects </b>
           <ul>
