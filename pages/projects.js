@@ -33,6 +33,7 @@ export default function Projects() {
   <li>AWS Route 53 VPC endpoint and resolver configuration</li>
   <li>Developing AWS Partnership for my company</li>
   <li>Hybrid Exchange configuration</li>
+  <br>
   </ul>
    <b><font size="+2">2020 Completed Projects </font></b>
   <ul>
