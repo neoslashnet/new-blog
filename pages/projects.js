@@ -23,7 +23,7 @@ export default function Projects() {
           </p>
         </div>
         <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-          <font size="4"> What I am currently working on </font>
+          <font size="+2"> What I am currently working on </font>
           <ul>
   <li>Citrix Cloud (Managed) VDI in AWS Cloud</li>
   <li>AWS Organizations rollout</li>
@@ -34,7 +34,7 @@ export default function Projects() {
   <li>Developing AWS Partnership for my company</li>
   <li>Hybrid Exchange configuration</li>
   </ul>
-   <font size="4">2020 Completed Projects </font>
+   <font size="+2">2020 Completed Projects </font>
   <ul>
   <li>Office 365 email migration off Exchange 2010</li>
   <li>Implemented AWS File gateway to S3 storage</li>
