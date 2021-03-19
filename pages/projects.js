@@ -55,6 +55,7 @@ export default function Projects() {
   <li>Implemented MFA across severall applications to entire client staff</li>
   </ul> 
         </p>
+        </div>
         <div className="container py-12">
           <div className="flex flex-wrap -m-4">
             {projectsData.map((d) => (
