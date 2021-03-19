@@ -33,11 +33,9 @@ export default function Projects() {
   <li>AWS Route 53 VPC endpoint and resolver configuration</li>
   <li>Developing AWS Partnership for my company</li>
   <li>Hybrid Exchange configuration</li>
-  </ul> 
-        </p>
-        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-          <b>2020 Completed Projects </b>
-          <ul>
+  </ul>
+   <b>2020 Completed Projects </b>
+  <ul>
   <li>Office 365 email migration off Exchange 2010</li>
   <li>Implemented AWS File gateway to S3 storage</li>
   <li>Azure Sentinel configuration and deployment</li>
