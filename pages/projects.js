@@ -34,6 +34,9 @@ export default function Projects() {
   <li>Developing AWS Partnership for my company</li>
   <li>Hybrid Exchange configuration</li>
   </ul>
+  </p>
+
+  <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
    <b><font size="+2">2020 Completed Projects </font></b>
   <ul>
   <li>Office 365 email migration off Exchange 2010</li>
