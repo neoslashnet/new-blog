@@ -22,6 +22,8 @@ export default function Projects() {
             Below are highlights of projects I am working on and completed last year
           </p>
         </div>
+        <div className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
         <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
           <b><font size="+2"> What I am currently working on </font></b>
           <ul>
@@ -35,8 +37,10 @@ export default function Projects() {
   <li>Hybrid Exchange configuration</li>
   </ul>
   </p>
-
-  <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+  </div>
+  <div className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+ <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
    <b><font size="+2">2020 Completed Projects </font></b>
   <ul>
   <li>Office 365 email migration off Exchange 2010</li>
