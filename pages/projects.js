@@ -35,7 +35,7 @@ export default function Projects() {
   <li>Hybrid Exchange configuration</li>
   </ul> 
         </p>
-        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+        <p>
           <b>2020 Completed Projects </b>
           <ul>
   <li>Office 365 email migration off Exchange 2010</li>
