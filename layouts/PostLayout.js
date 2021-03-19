@@ -69,7 +69,7 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
                 <Link href={discussUrl(slug)} rel="nofollow">
                   {''}
                 </Link>
-                {` • `}
+                {`  `}
                 <Link href={editUrl(fileName)}>{''}</Link>
               </div>
             </div>
