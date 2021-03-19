@@ -38,7 +38,7 @@ export default function Projects() {
         <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
           <b>2020 Completed Projects </b>
           <ul>
-  <li>Office 365 email migration(Off Exchange 2010)</li>
+  <li>Office 365 email migration off Exchange 2010</li>
   <li>Implemented AWS File gateway to S3 storage</li>
   <li>Azure Sentinel configuration and deployment</li>
   <li>AWS S3 Replication Projects </li>
