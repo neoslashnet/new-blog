@@ -70,7 +70,7 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
                   {'Discuss on Twitter'}
                 </Link>
                 {` • `}
-                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
+                <!--<Link href={editUrl(fileName)}-->{'View on GitHub'}</Link>
               </div>
             </div>
             <footer>
