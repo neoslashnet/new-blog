@@ -76,7 +76,7 @@ class MyDocument extends Document {
           />
           <script
     async
-    src={`https://www.googletagmanager.com/gtag/js?id=${UA-169236737-1}`}
+    src={`https://www.googletagmanager.com/gtag/js?id=${169236737-1}`}
   />
   <script
     // eslint-disable-next-line react/no-danger
@@ -85,7 +85,7 @@ class MyDocument extends Document {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '${UA-169236737-1}', {
+        gtag('config', '${169236737-1}', {
           page_path: window.location.pathname,
         });
       `,
