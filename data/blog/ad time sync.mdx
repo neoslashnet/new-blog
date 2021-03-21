@@ -1,0 +1,34 @@
+---
+title: 'Quickly sync your DC's to NTP and correct time issues on your domain'
+date: '2019-08-01'
+tags: [Microsoft']
+draft: false
+---
+Quick and dirty-  
+  
+Run the following command on your PDC emulator:  
+
+```
+w32tm /config /manualpeerlist:_timeserver_ /syncfromflags:manual /reliable:yes /update
+```
+
+ 
+ In my case, timeserver is a North American ntp pool server.  
+  
+```
+w32tm /config /manualpeerlist:0.north-america.pool.ntp.org /syncfromflags:manual /reliable:yes /update  
+```
+
+
+
+  
+After this is done, restart the "Windows Time" service.  
+  
+  
+After that is complete, run the following on all other DC's and restart the "Windows Time" service once complete.  
+  
+```
+w32tm /config /syncfromflags:domhier /update  
+```
+
+
