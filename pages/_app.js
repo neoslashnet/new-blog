@@ -8,7 +8,6 @@ import Head from 'next/head'
 import { SEO } from '@/components/SEO'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import MDXComponents from '@/components/MDXComponents'
-import * as gtag from '../lib/gtag'
 
 export default function App({ Component, pageProps }) {
   return (
