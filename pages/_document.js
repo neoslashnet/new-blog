@@ -1,4 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+
+import { GA_TRACKING_ID } from '../lib/gtag'
+
 class MyDocument extends Document {
   render() {
     return (
@@ -73,6 +76,23 @@ class MyDocument extends Document {
             href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
             integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j"
             crossOrigin="anonymous"
+          />
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
           />
           </Head>
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
