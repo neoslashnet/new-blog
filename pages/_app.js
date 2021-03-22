@@ -37,3 +37,5 @@ export default function App({ Component, pageProps }) {
     </ThemeProvider>  
   )
 }
+
+export default App
